@@ -1,0 +1,34 @@
+=========================================
+        COMPILEGUARD SECURITY REPORT
+=========================================
+Date: 2026-10-26 10:04:10
+File analyzed: new_test_file.c
+Compiler used: GCC
+Optimization levels tested: -O0, -O1, -O2, -O3
+
+Overall predicted risk: MEDIUM RISK
+Risky predictions: 3 out of 4
+
+Detailed compiler-level analysis:
+Compiler Flag Prediction  Confidence  Warnings  Assembly Lines  Instructions  Branches  Calls  Memory Operations
+          -O0       Safe        83.0         0             108            59         3      8                 39
+          -O1      Risky        59.0         2              98            46         3      8                 26
+          -O2      Risky        66.0         2              99            46         3      8                 21
+          -O3      Risky        66.0         2              99            46         3      8                 21
+
+Detected security concerns:
+- Unsafe use of strcpy() may cause buffer overflow
+- Array index is not properly validated
+- index + 1 may cause signed integer overflow
+- User input is accepted without sufficient validation
+
+Recommendations:
+- Replace strcpy() with strncpy() or safer bounded copying
+- Validate index using: index >= 0 && index < array_size
+- Avoid signed integer overflow in index calculations
+- Use compiler warnings during development: -Wall -Wextra -Wpedantic
+- Test with sanitizers: -fsanitize=address,undefined
+
+=========================================
+              END OF REPORT
+=========================================
