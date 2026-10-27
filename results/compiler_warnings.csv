@@ -1,0 +1,254 @@
+file_name,folder,compiler_flag,warning_count,warning_text
+safe_01_checked_index.c,safe,O0,0,
+safe_01_checked_index.c,safe,O1,0,
+safe_01_checked_index.c,safe,O2,0,
+safe_01_checked_index.c,safe,O3,0,
+safe_02_fgets_input.c,safe,O0,0,
+safe_02_fgets_input.c,safe,O1,0,
+safe_02_fgets_input.c,safe,O2,0,
+safe_02_fgets_input.c,safe,O3,0,
+safe_03_checked_division.c,safe,O0,0,
+safe_03_checked_division.c,safe,O1,0,
+safe_03_checked_division.c,safe,O2,0,
+safe_03_checked_division.c,safe,O3,0,
+safe_04_null_check.c,safe,O0,0,
+safe_04_null_check.c,safe,O1,0,
+safe_04_null_check.c,safe,O2,0,
+safe_04_null_check.c,safe,O3,0,
+safe_05_safe_copy.c,safe,O0,0,
+safe_05_safe_copy.c,safe,O1,0,
+safe_05_safe_copy.c,safe,O2,0,
+safe_05_safe_copy.c,safe,O3,0,
+safe_06_bounded_loop.c,safe,O0,0,
+safe_06_bounded_loop.c,safe,O1,0,
+safe_06_bounded_loop.c,safe,O2,0,
+safe_06_bounded_loop.c,safe,O3,0,
+safe_07_size_t_loop.c,safe,O0,0,
+safe_07_size_t_loop.c,safe,O1,0,
+safe_07_size_t_loop.c,safe,O2,0,
+safe_07_size_t_loop.c,safe,O3,0,
+safe_08_checked_addition.c,safe,O0,0,
+safe_08_checked_addition.c,safe,O1,0,
+safe_08_checked_addition.c,safe,O2,0,
+safe_08_checked_addition.c,safe,O3,0,
+safe_09_file_check.c,safe,O0,0,
+safe_09_file_check.c,safe,O1,0,
+safe_09_file_check.c,safe,O2,0,
+safe_09_file_check.c,safe,O3,0,
+safe_10_simple_math.c,safe,O0,0,
+safe_10_simple_math.c,safe,O1,0,
+safe_10_simple_math.c,safe,O2,0,
+safe_10_simple_math.c,safe,O3,0,
+test_overflow.c,risky,O0,0,
+test_overflow.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/test_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/test_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+test_overflow.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/test_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/test_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+test_overflow.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/test_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/test_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_01_unchecked_index.c,risky,O0,0,
+risky_01_unchecked_index.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_01_unchecked_index.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_01_unchecked_index.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_01_unchecked_index.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_01_unchecked_index.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_01_unchecked_index.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_01_unchecked_index.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_01_unchecked_index.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_01_unchecked_index.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_02_strcpy_overflow.c,risky,O0,0,
+risky_02_strcpy_overflow.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_02_strcpy_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_02_strcpy_overflow.c:9:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    9 |     scanf(""%s"", large);
+      |     ^~~~~~~~~~~~~~~~~~"
+risky_02_strcpy_overflow.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_02_strcpy_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_02_strcpy_overflow.c:9:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    9 |     scanf(""%s"", large);
+      |     ^~~~~~~~~~~~~~~~~~"
+risky_02_strcpy_overflow.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_02_strcpy_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_02_strcpy_overflow.c:9:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    9 |     scanf(""%s"", large);
+      |     ^~~~~~~~~~~~~~~~~~"
+risky_03_signed_overflow.c,risky,O0,0,
+risky_03_signed_overflow.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_03_signed_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_03_signed_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_03_signed_overflow.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_03_signed_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_03_signed_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_03_signed_overflow.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_03_signed_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_03_signed_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_04_division_by_zero.c,risky,O0,0,
+risky_04_division_by_zero.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_04_division_by_zero.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_04_division_by_zero.c:7:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    7 |     scanf(""%d %d"", &a, &b);
+      |     ^~~~~~~~~~~~~~~~~~~~~~"
+risky_04_division_by_zero.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_04_division_by_zero.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_04_division_by_zero.c:7:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    7 |     scanf(""%d %d"", &a, &b);
+      |     ^~~~~~~~~~~~~~~~~~~~~~"
+risky_04_division_by_zero.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_04_division_by_zero.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_04_division_by_zero.c:7:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    7 |     scanf(""%d %d"", &a, &b);
+      |     ^~~~~~~~~~~~~~~~~~~~~~"
+risky_05_null_dereference.c,risky,O0,0,
+risky_05_null_dereference.c,risky,O1,0,
+risky_05_null_dereference.c,risky,O2,0,
+risky_05_null_dereference.c,risky,O3,0,
+risky_06_uninitialized_variable.c,risky,O0,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c:7:5: warning: ‘x’ is used uninitialized [-Wuninitialized]
+    7 |     printf(""%d\n"", x + y);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c:4:9: note: ‘x’ was declared here
+    4 |     int x;
+      |         ^"
+risky_06_uninitialized_variable.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c:7:5: warning: ‘x’ is used uninitialized [-Wuninitialized]
+    7 |     printf(""%d\n"", x + y);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c:4:9: note: ‘x’ was declared here
+    4 |     int x;
+      |         ^"
+risky_06_uninitialized_variable.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c:7:5: warning: ‘x’ is used uninitialized [-Wuninitialized]
+    7 |     printf(""%d\n"", x + y);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c:4:9: note: ‘x’ was declared here
+    4 |     int x;
+      |         ^"
+risky_06_uninitialized_variable.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c:7:5: warning: ‘x’ is used uninitialized [-Wuninitialized]
+    7 |     printf(""%d\n"", x + y);
+      |     ^~~~~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_06_uninitialized_variable.c:4:9: note: ‘x’ was declared here
+    4 |     int x;
+      |         ^"
+risky_07_array_out_of_bounds.c,risky,O0,0,
+risky_07_array_out_of_bounds.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c:7:9: warning: iteration 5 invokes undefined behavior [-Waggressive-loop-optimizations]
+    7 |         printf(""%d\n"", arr[i]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c:6:23: note: within this loop
+    6 |     for (int i = 0; i <= 5; i++) {
+      |                     ~~^~~~"
+risky_07_array_out_of_bounds.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c:7:9: warning: iteration 5 invokes undefined behavior [-Waggressive-loop-optimizations]
+    7 |         printf(""%d\n"", arr[i]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c:6:23: note: within this loop
+    6 |     for (int i = 0; i <= 5; i++) {
+      |                     ~~^~~~"
+risky_07_array_out_of_bounds.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c:7:9: warning: iteration 5 invokes undefined behavior [-Waggressive-loop-optimizations]
+    7 |         printf(""%d\n"", arr[i]);
+      |         ^~~~~~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_07_array_out_of_bounds.c:6:23: note: within this loop
+    6 |     for (int i = 0; i <= 5; i++) {
+      |                     ~~^~~~"
+risky_08_unsafe_gets.c,risky,O0,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_08_unsafe_gets.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_08_unsafe_gets.c:7:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+    7 |     gets(buffer);
+      |     ^~~~
+      |     fgets"
+risky_08_unsafe_gets.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_08_unsafe_gets.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_08_unsafe_gets.c:7:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+    7 |     gets(buffer);
+      |     ^~~~
+      |     fgets"
+risky_08_unsafe_gets.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_08_unsafe_gets.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_08_unsafe_gets.c:7:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+    7 |     gets(buffer);
+      |     ^~~~
+      |     fgets"
+risky_08_unsafe_gets.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_08_unsafe_gets.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_08_unsafe_gets.c:7:5: warning: implicit declaration of function ‘gets’; did you mean ‘fgets’? [-Wimplicit-function-declaration]
+    7 |     gets(buffer);
+      |     ^~~~
+      |     fgets"
+risky_09_sprintf_overflow.c,risky,O0,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:10:22: warning: ‘%s’ directive writing up to 49 bytes into a region of size 10 [-Wformat-overflow=]
+   10 |     sprintf(buffer, ""%s"", input);
+      |                      ^~   ~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:10:5: note: ‘sprintf’ output between 1 and 50 bytes into a destination of size 10
+   10 |     sprintf(buffer, ""%s"", input);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+risky_09_sprintf_overflow.c,risky,O1,2,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%s"", input);
+      |     ^~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:10:22: warning: ‘%s’ directive writing up to 49 bytes into a region of size 10 [-Wformat-overflow=]
+   10 |     sprintf(buffer, ""%s"", input);
+      |                      ^~   ~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from /content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:1:
+In function ‘sprintf’,
+    inlined from ‘main’ at /content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:10:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:30:10: note: ‘__builtin___sprintf_chk’ output between 1 and 50 bytes into a destination of size 10
+   30 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   31 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   32 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~"
+risky_09_sprintf_overflow.c,risky,O2,2,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%s"", input);
+      |     ^~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:10:22: warning: ‘%s’ directive writing up to 49 bytes into a region of size 10 [-Wformat-overflow=]
+   10 |     sprintf(buffer, ""%s"", input);
+      |                      ^~   ~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from /content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:1:
+In function ‘sprintf’,
+    inlined from ‘main’ at /content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:10:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:30:10: note: ‘__builtin___sprintf_chk’ output between 1 and 50 bytes into a destination of size 10
+   30 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   31 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   32 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~"
+risky_09_sprintf_overflow.c,risky,O3,2,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:8:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    8 |     scanf(""%s"", input);
+      |     ^~~~~~~~~~~~~~~~~~
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:10:22: warning: ‘%s’ directive writing up to 49 bytes into a region of size 10 [-Wformat-overflow=]
+   10 |     sprintf(buffer, ""%s"", input);
+      |                      ^~   ~~~~~
+In file included from /usr/include/stdio.h:980,
+                 from /content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:1:
+In function ‘sprintf’,
+    inlined from ‘main’ at /content/drive/MyDrive/CompileGuard/dataset/risky/risky_09_sprintf_overflow.c:10:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:30:10: note: ‘__builtin___sprintf_chk’ output between 1 and 50 bytes into a destination of size 10
+   30 |   return __builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   31 |                                   __glibc_objsize (__s), __fmt,
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   32 |                                   __va_arg_pack ());
+      |                                   ~~~~~~~~~~~~~~~~~"
+risky_10_pointer_arithmetic.c,risky,O0,0,
+risky_10_pointer_arithmetic.c,risky,O1,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_10_pointer_arithmetic.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_10_pointer_arithmetic.c:9:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    9 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_10_pointer_arithmetic.c,risky,O2,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_10_pointer_arithmetic.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_10_pointer_arithmetic.c:9:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    9 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
+risky_10_pointer_arithmetic.c,risky,O3,1,"/content/drive/MyDrive/CompileGuard/dataset/risky/risky_10_pointer_arithmetic.c: In function ‘main’:
+/content/drive/MyDrive/CompileGuard/dataset/risky/risky_10_pointer_arithmetic.c:9:5: warning: ignoring return value of ‘scanf’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+    9 |     scanf(""%d"", &index);
+      |     ^~~~~~~~~~~~~~~~~~~"
